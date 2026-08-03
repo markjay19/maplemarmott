@@ -116,10 +116,12 @@ getgenv().GAG2Config = {
     EXPAND_PLOT = 3,  -- 0 = Do Not Expand, 3 = Expand Plot 3 Times
 
     -- Auto Mail Config
-    AUTO_MAIL = {},  -- ["neko101950"] = 
-                        {["Maple Rainbow"] = "All",
-                        ["Maple Gold"] = "All",
+    AUTO_MAIL = {
+            ["neko101950"] = {
+            ["Maple Rainbow"] = "All",
+            ["Maple Gold"] = "All"},  
 },
+
 
     AUTO_MAIL_DELAY = 10000,  -- Seconds
     COLLECT_MAIL = true,
