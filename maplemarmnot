@@ -119,9 +119,9 @@ getgenv().GAG2Config = {
     AUTO_MAIL = {},  -- ["neko101950"] = 
                         {["Maple Rainbow"] = "All",
                         ["Maple Gold"] = "All",
-}
+},
 
-    AUTO_MAIL_DELAY = 60,  -- Seconds
+    AUTO_MAIL_DELAY = 10000,  -- Seconds
     COLLECT_MAIL = true,
 
     -- Discord Config
