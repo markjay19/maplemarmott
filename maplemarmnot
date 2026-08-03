@@ -38,7 +38,6 @@ getgenv().GAG2Config = {
         ["Maple Acorn"] = 10,
         ["Maple Cherry"] = 10,
         ["Maple Sunflower"] = 10,
-        ["Atlantic Giant Pumpkin"] = 10,
         ["Maple Venus Fly Trap"] = 10,
         ["Maple Pomegranate"] = 10,
         ["Maple Poison Apple"] = 10,
@@ -67,7 +66,7 @@ getgenv().GAG2Config = {
         ["Maple Acorn"] = 3,
         ["Maple Cherry"] = 1,
         ["Maple Sunflower"] = 1,
-        ["Atlantic Giant Pumpkin"] = 1,
+        ["Atlantic Giant Pumpkin"] = 9999,
         ["Maple Venus Fly Trap"] = 1,
         ["Maple Pomegranate"] = 1,
         ["Maple Poison Apple"] = 1,
@@ -116,6 +115,8 @@ getgenv().GAG2Config = {
     AUTO_MAIL = {
             ["neko101950"] = {
             ["Maple Rainbow"] = "All",
+            ["Atlantic Giant Pumpkin"] = "All",
+            ["Amber Cranberry"] = "All",
             ["Maple Gold"] = "All"},  
 },
 
